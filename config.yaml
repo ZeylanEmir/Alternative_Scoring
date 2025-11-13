@@ -1,0 +1,16 @@
+# Basic configuration for feature windows and model params
+lookback_days: 180
+min_txns: 5
+test_size: 0.25
+random_state: 42
+model:
+  type: "xgboost"   # or "rf"
+  xgb:
+    n_estimators: 300
+    max_depth: 5
+    learning_rate: 0.08
+    subsample: 0.9
+    colsample_bytree: 0.9
+  rf:
+    n_estimators: 400
+    max_depth: 10

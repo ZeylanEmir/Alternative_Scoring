@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+venv/
+
+# IDE (PyCharm)
+.idea/
+
+# Artifacts / outputs
+artifacts/
+outputs/
+reports/
+*.png
+*.pdf
+
+# Data (оставь только безопасные демо)
+data/raw/
+data/interim/
+data/processed/
+!data/README.md
+
+# Samples (если есть реальные выписки — не коммитим)
+samples/*.pdf
+samples/*.csv
+!samples/README.md
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
